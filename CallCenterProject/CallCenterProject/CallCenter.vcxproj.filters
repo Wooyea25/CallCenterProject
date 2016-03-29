@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Fresher.cpp" />
+    <ClCompile Include="TL.cpp" />
+    <ClCompile Include="PM.cpp" />
+    <ClCompile Include="CallCenter.cpp" />
+    <ClCompile Include="Caller.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fresher.h">
+      <Filter>HeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="PM.h">
+      <Filter>HeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="TL.h">
+      <Filter>HeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="CallCenter.h">
+      <Filter>HeaderFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Caller.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="HeaderFile">
+      <UniqueIdentifier>{44d12502-53e0-4bb3-89cb-6d98133d8527}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
